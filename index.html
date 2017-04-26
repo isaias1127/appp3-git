@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera aplicacion</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app2.min.css">
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+ <script type="text/javascript">
+ 
+ 
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/celular-2 sustitucion.jpg','imagenes/estructura1.jpg','imagenes/comunicaciones1.jpg','imagenes/IMG_20170405_113139.jpg','imagenes/IMG_20170405_113337.jpg','imagenes/IMG_20170405_113154.jpg','imagenes/IMG_20170405_113423.jpg','imagenes/IMG_20170405_113436.jpg','imagenes/IMG_20170405_113350.jpg','imagenes/fundamentos1.jpg','imagenes/visual.jpg')">
+
+
+
+<div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+    <h1>Bibliografia de la academia</h1>
+      <h2> de programacion del CBTis 16</h2>
+  </div>
+  <br>
+  
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/comunicaciones.jpg" alt="comunicaciones" title="comunicaciones" id="wows1_0"/></li>
+		<li><img src="data1/images/asp.jpg" alt="asp" title="asp" id="wows1_1"/></li>
+		<li><img src="data1/images/como.jpg" alt="como" title="como" id="wows1_2"/></li>
+		<li><img src="data1/images/fundamentos.jpg" alt="fundamentos" title="fundamentos" id="wows1_3"/></li>
+		<li><img src="data1/images/img_20170405_113148.jpg" alt="IMG_20170405_113148" title="IMG_20170405_113148" id="wows1_4"/></li>
+		<li><img src="data1/images/estructuras.jpg" alt="estructuras" title="estructuras" id="wows1_5"/></li>
+		<li><img src="data1/images/img_20170405_113323.jpg" alt="IMG_20170405_113323" title="IMG_20170405_113323" id="wows1_6"/></li>
+		<li><img src="data1/images/java.jpg" alt="java" title="java" id="wows1_7"/></li>
+		<li><img src="data1/images/visual1.jpg" alt="visual1" title="visual1" id="wows1_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img_20170405_113433.jpg" alt="http://wowslider.com/" title="IMG_20170405_113433" id="wows1_9"/></a></li>
+		<li><img src="data1/images/pro.jpg" alt="pro" title="pro" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="comunicaciones"><span><img src="data1/tooltips/comunicaciones.jpg" alt="comunicaciones"/>1</span></a>
+		<a href="#" title="asp"><span><img src="data1/tooltips/asp.jpg" alt="asp"/>2</span></a>
+		<a href="#" title="como"><span><img src="data1/tooltips/como.jpg" alt="como"/>3</span></a>
+		<a href="#" title="fundamentos"><span><img src="data1/tooltips/fundamentos.jpg" alt="fundamentos"/>4</span></a>
+		<a href="#" title="IMG_20170405_113148"><span><img src="data1/tooltips/img_20170405_113148.jpg" alt="IMG_20170405_113148"/>5</span></a>
+		<a href="#" title="estructuras"><span><img src="data1/tooltips/estructuras.jpg" alt="estructuras"/>6</span></a>
+		<a href="#" title="IMG_20170405_113323"><span><img src="data1/tooltips/img_20170405_113323.jpg" alt="IMG_20170405_113323"/>7</span></a>
+		<a href="#" title="java"><span><img src="data1/tooltips/java.jpg" alt="java"/>8</span></a>
+		<a href="#" title="visual1"><span><img src="data1/tooltips/visual1.jpg" alt="visual1"/>9</span></a>
+		<a href="#" title="IMG_20170405_113433"><span><img src="data1/tooltips/img_20170405_113433.jpg" alt="IMG_20170405_113433"/>10</span></a>
+		<a href="#" title="pro"><span><img src="data1/tooltips/pro.jpg" alt="pro"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+  
+  <div>
+   <ul data role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>JAVA Como programar</h2>
+         <p>Deitel Harvey M, Deitel Paul J.</p>
+       </a> 
+     </li>
+     <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Estructura de datos</h2>
+            <p>Osvaldo Cairo y Silvia Guardati</p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Comunicaciones y redes de computadores</h2>
+              <p>William Stallings</p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>ASP.NET 4.0</h2>
+                 <p>George Shepherd</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Sistemas Operativos</h2>
+                 <p>Jesús Carretero Pérez – Felix García Caraballera – Pedro de Miguel Anasagasti – Fernando Pérez Costoya</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Mantenimiento y reparcion de computadoras</h2>
+                 <p>Siberian S.L</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Programacion en java</h2>
+                 <p>C. Thomas Wu</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Redes de computadoras</h2>
+                 <p>Andrew S. Tanenbaum </p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Programacion Avanzada Con SQL Server 2005</h2>
+                 <p>Andrew J. Brust Stephen forte</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Fundamentos de redes</h2>
+                 <p>Bruce A. Hallberg</p>
+        </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Visual C# 2010</h2>
+                 <p>John Sharp</p>
+        </a>
+     </li>
+     <br>
+<br>
+   </ul>
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+              <div>
+                <h4>Aplicacion Tres </h4>
+                <h4>Isaias Tellez Fabian</h4>  
+              </div> 
+            </div>
+            </div> 
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                <h1>JAVA Como programar</h1>
+              </div>
+              <br>
+<div data-role="content" align="center">
+              <div>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/IMG_20170405_113139.jpg',1)"><img src="imagenes/como.jpg" width="196" height="257" id="Image13"></a> </div>
+              </div>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Enlaces</h1>
+      <div>
+       <p>Esta es la imagen del celular </p>
+       <br>
+     </div>
+   </div> 
+</div>
+
+<h2><strong>Contenido:</strong></h2>
+
+<p>1 Introducción a las computadoras y a Java</p>
+<p>2 Introducción a las aplicaciones en Java</p>
+<p>3 Introducción a las clases, objetos, métodos y cadenas</p>
+<p>4. Instrucciones de control: Parte I</p>
+<p>5. Instrucciones de control: Parte 2</p>
+<p>6. Métodos: un análisis más detallado</p>
+<p>7. Arreglos y objetos ArrayList</p>
+<p>8. Clases y objetos: un análisis más detallado</p>
+<p>9. Programación orientada a objetos: herencia</p>
+<p>10. Programación orientada a objetos: polimorfismo</p>
+<p>11. Manejo de excepciones: un análisis más profundo</p>
+<p>12. Caso de estudio del ATM, Parte I: Diseño orientado a objetos con UML</p>
+<p>13. Caso de estudio del ATM, Parte 2: Implementación de un diseño orientado a objetos</p>
+<p>14. Componentes de la GUI: Parte I</p>
+<p>15. Gráficos y Java 2D</p>
+<p>16. Cadenas, caracteres y expresiones regulares</p>
+<p>17. Archivos, flujos y señalización de objetos</p>
+<p>18. Recursividad</p>
+<p>19. Búsqueda, ordenamiento y Big O</p>
+<p>20. Generic Collections</p>
+<p>21. Generic Classes and Methods</p>
+<p>22. Custom Generic Data Structures</p>
+<p>23. Applets and Java Web Start</p>
+<p>24. Multimedia: Applets and Applications</p>
+<p>25. GUI Components: Part 2</p>
+<p>26. Multithreading</p>
+<p>27. Networking</p>
+<p>28. Accessing Databases w ith JDBC</p>
+<p>29. JavaServer™ Faces Web Apps: Part 1</p>
+<p>30. JavaServer™ Faces Web Apps: Part 2</p>
+<p>31. Web Services</p>
+</p>
+
+  
+              <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+              </div>
+</div>
+                      
+            
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Estructura de datos</h1>
+               </div>
+               <br>
+<div data-role="content" align="center">
+              <div>  
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/estructura1.jpg',1)"><img src="imagenes/estructuras.jpg" width="201" height="251" id="Image17"></a> </div>
+
+   </div>
+            <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Lg-v20</h1>
+      <div>
+       <p>Esta es la imagen del celular </p>
+       <br>
+     </div>
+   </div> 
+  </div>
+  
+  <h2><strong>Contenido:</strong></h2>
+
+<p>Capítulo 1: Estructuras fundamentales</p>
+<p>Capítulo 2: Arreglos multidimensionales representados en arreglos unidimensionales</p>
+<p>Capítulo 3: Pilas y colas</p>
+<p>Capítulo 4: Recursión</p>
+<p>Capítulo 5: Listas</p>
+<p>Capítulo 6: Árboles</p>
+<p>Capítulo 7: Graficas</p>
+<p>Capítulo 8: Métodos de ordenación</p>
+<p>Capítulo 9: Métodos de búsqueda</p>
+            
+               <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+              </div>
+</div>
+                
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"    data-back-btn-theme="b">
+              <h1>Comunicaciones y redes de computadoras</h1>
+           </div>
+           <br>
+<div data-role="content" align="center">
+           <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/comunicaciones1.jpg',1)"><img src="imagenes/comunicaciones.jpg" width="200" height="200" id="Image15"></a> </div>
+           </div>
+         <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Ejemplo 1</h1>
+      <div>
+       <p>Esta es la imagen del celular </p>
+       <br>
+     </div>
+   </div> 
+  </div>
+           <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+              </div>
+</div>
+           
+           
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>ASP.NET 4.O</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/asp1.jpg',0)"><img src="imagenes/asp.jpg" width="200" height="200" id="Image14"></a> </div>
+              </div>
+              <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Enlaces</h1>
+      <div>
+       <p>Esta es la imagen del celular </p>
+       <br>
+     </div>
+   </div> 
+</div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+              </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Sistemas Operativos</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/IMG_20170405_113337.jpg',1)"><img src="imagenes/IMG_20170405_113323.jpg" width="200" height="200" id="Image12"></a></div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Mantenimiento y reparacion de computadoras</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/IMG_20170405_113154.jpg',1)"><img src="imagenes/IMG_20170405_113148.jpg" width="200" height="200" id="Image11"></a> </div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Programacion en java</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/IMG_20170405_113423.jpg',1)"><img src="imagenes/IMG_20170405_113418.jpg" width="200" height="200" id="Image10"></a> </div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Redes de computadoras</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/IMG_20170405_113436.jpg',1)"><img src="imagenes/IMG_20170405_113433.jpg" width="200" height="200" id="Image9"></a> </div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Programacion Avanzada Con SQL Server 2005</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/IMG_20170405_113350.jpg',1)"><img src="imagenes/IMG_20170405_113346.jpg" width="200" height="200" id="Image8"></a> </div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Fundamentos de redes</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/fundamentos1.jpg',1)"><img src="imagenes/fundamentos.jpg" width="200" height="200" id="Image7"></a> </div>
+              </div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+  </div>
+</div>
+ 
+ <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                <h1>Visual C# 2010</h1>
+   </div>
+              <br>
+<div data-role="content" align="center">
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/visual.jpg',1)"><img src="imagenes/visual1.jpg" width="200" height="200" id="Image6"></a> </div>
+   </div>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Enlaces</h1>
+      <div>
+       <p>Esta es la imagen del celular </p>
+       <br>
+     </div>
+   </div> 
+</div>
+  
+              <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Tres, ITF</h4>
+              </div>
+</div>         
+         
+                         
+</body>
+</html>
